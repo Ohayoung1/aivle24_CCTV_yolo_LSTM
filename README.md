@@ -1,4 +1,4 @@
-# YOLO_LSTM
+# 범죄예측
 ![Python](https://img.shields.io/badge/Python-3.9-blue.svg)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15.0-orange.svg)
 ![CUDA](https://img.shields.io/badge/CUDA-Compatible-green.svg)
@@ -153,7 +153,7 @@ pip install -r requirements.txt
  
 ### 1. 범죄 데이터 부족
 - **문제**: 범죄 데이터를 충분히 확보하지 못해, 학습에 필요한 데이터가 부족함
-- **해결**: 데이터 생성 및 증강을 통해 범죄 관련 데이터셋을 확장하여 해결
+- **해결**: 데이터 생성 및 증강을 통해 범죄 관련 데이터셋을 확장하여 해결 (예측률 99.22%)
  
 ### 2. 구석으로 가면 Danger로 인식
 - **문제**: 구석에 있는 인물들이 Danger로 잘못 분류되는 현상이 발생
